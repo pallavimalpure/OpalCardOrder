@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="61505" started-at="2017-09-03T22:36:49Z" finished-at="2017-09-03T22:37:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="61505" started-at="2017-09-03T22:36:49Z" finished-at="2017-09-03T22:37:51Z">
+      <class name="OrderCard.LoginToOpal">
+        <test-method status="PASS" signature="LoadWebPage()[pri:0, instance:OrderCard.LoginToOpal@10e41621]" name="LoadWebPage" is-config="true" duration-ms="7653" started-at="2017-09-03T23:36:49Z" finished-at="2017-09-03T23:36:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoadWebPage -->
+        <test-method status="PASS" signature="LogintoOpal(java.lang.String, java.lang.String)[pri:0, instance:OrderCard.LoginToOpal@10e41621]" name="LogintoOpal" duration-ms="53188" started-at="2017-09-03T23:36:57Z" data-provider="getData" finished-at="2017-09-03T23:37:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUsername12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestPassword1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogintoOpal -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:OrderCard.LoginToOpal@10e41621]" name="afterTest" is-config="true" duration-ms="233" started-at="2017-09-03T23:37:50Z" finished-at="2017-09-03T23:37:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- OrderCard.LoginToOpal -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/client-combined-3.5.0-nodeps.jar"/>
+	<classpathentry kind="lib" path="lib/commons-io-2.5-javadoc.jar"/>
+	<classpathentry kind="lib" path="lib/commons-io-2.5.jar"/>
+	<classpathentry kind="lib" path="lib/poi-3.16.jar"/>
+	<classpathentry kind="lib" path="lib/poi-examples-3.16.jar"/>
+	<classpathentry kind="lib" path="lib/poi-excelant-3.16.jar"/>
+	<classpathentry kind="lib" path="lib/poi-ooxml-3.16.jar"/>
+	<classpathentry kind="lib" path="lib/poi-ooxml-schemas-3.16.jar"/>
+	<classpathentry kind="lib" path="lib/poi-scratchpad-3.16.jar"/>
+	<classpathentry kind="lib" path="lib/selenium-server-standalone-3.5.0.jar"/>
+	<classpathentry kind="lib" path="lib/testng-6.11.jar" sourcepath="lib/testng-6.11.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_144/lib/dt.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_144/lib/javafx-mx.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_144/lib/jconsole.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_144/lib/packager.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_144/lib/sa-jdi.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_144/lib/tools.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_144/lib/charsets.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_144/lib/deploy.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_144/lib/javaws.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_144/lib/jce.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_144/lib/jfr.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_144/lib/jfxswt.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_144/lib/jsse.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_144/lib/management-agent.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_144/lib/plugin.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_144/lib/resources.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_144/lib/rt.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yewal/Desktop/Selenium Java/mysql-connector-java-5.1.18-bin.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
