@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6612" started-at="2018-07-09T22:21:09Z" finished-at="2018-07-09T22:21:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6612" started-at="2018-07-09T22:21:09Z" finished-at="2018-07-09T22:21:16Z">
+      <class name="testAccessObjects.LoginToOpal">
+        <test-method status="PASS" signature="LoadWebPage()[pri:0, instance:testAccessObjects.LoginToOpal@23ceabc1]" name="LoadWebPage" is-config="true" duration-ms="6317" started-at="2018-07-09T23:21:09Z" finished-at="2018-07-09T23:21:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoadWebPage -->
+        <test-method status="FAIL" signature="LogintoOpal(java.lang.String, java.lang.String)[pri:0, instance:testAccessObjects.LoginToOpal@23ceabc1]" name="LogintoOpal" duration-ms="5" started-at="2018-07-09T23:21:16Z" data-provider="getData" finished-at="2018-07-09T23:21:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUsername12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestPassword1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Cannot find elements with a null id attribute.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Cannot find elements with a null id attribute.
+	at org.openqa.selenium.By.id(By.java:53)
+	at pageObject.OpalLoginPageObjects.<init>(OpalLoginPageObjects.java:14)
+	at testAccessObjects.LoginToOpal.LogintoOpal(LoginToOpal.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogintoOpal -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testAccessObjects.LoginToOpal@23ceabc1]" name="afterTest" is-config="true" duration-ms="106" started-at="2018-07-09T23:21:16Z" finished-at="2018-07-09T23:21:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testAccessObjects.LoginToOpal -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

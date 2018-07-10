@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="OpalCardOrder/src"/>
+	<classpathentry kind="lib" path="OpalCardOrder/lib/client-combined-3.5.0-nodeps.jar"/>
+	<classpathentry kind="lib" path="OpalCardOrder/lib/commons-io-2.5-javadoc.jar"/>
+	<classpathentry kind="lib" path="OpalCardOrder/lib/commons-io-2.5.jar"/>
+	<classpathentry kind="lib" path="OpalCardOrder/lib/poi-3.16.jar"/>
+	<classpathentry kind="lib" path="OpalCardOrder/lib/poi-examples-3.16.jar"/>
+	<classpathentry kind="lib" path="OpalCardOrder/lib/poi-excelant-3.16.jar"/>
+	<classpathentry kind="lib" path="OpalCardOrder/lib/poi-ooxml-3.16.jar"/>
+	<classpathentry kind="lib" path="OpalCardOrder/lib/poi-ooxml-schemas-3.16.jar"/>
+	<classpathentry kind="lib" path="OpalCardOrder/lib/poi-scratchpad-3.16.jar"/>
+	<classpathentry kind="lib" path="OpalCardOrder/lib/selenium-server-standalone-3.5.0.jar"/>
+	<classpathentry kind="lib" path="OpalCardOrder/lib/testng-6.11.jar"/>
+	<classpathentry kind="output" path="OpalCardOrder/bin"/>
+</classpath>
